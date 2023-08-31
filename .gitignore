@@ -1,0 +1,3 @@
+node_modules
+coverage //vai gerar no push
+dist
