@@ -7,10 +7,7 @@
     "build": "tsc && tsc-alias",
     "start": "node dist/index.js",
     "start:dev": "nodemon --watch src/ --exec ts-node -r tsconfig-paths/register src/index.ts -e ts",
-    "husky:prepare": "husky install",
-    "test:watch": "yarn test --watch",
-    "test:staged": "yarn test --findRelatedTests",
-    "test:push": "yarn test --converage"
+    "husky:prepare": "husky install"
   },
   "keywords": [],
   "author": "",
